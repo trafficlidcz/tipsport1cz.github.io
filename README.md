@@ -53,8 +53,8 @@
     <div class="result" id="result">
       <h2>🎉 Gratulujeme!</h2>
       <p>Tvůj bonus <strong>+200%</strong> na začátek je připraven 🎁</p>
-      <div class="progress-bar"><div id="progress" class="progress"></div></div>
-      <p><strong>Zbývá čas:</strong> Aktivuj během 15 minut</p>
+      <div style="background-image: url('images/banner-cz.png'); background-size: cover; padding:60px; text-align:center;">
+  <a href="https://example.com/registration" style="padding:12px 24px; background:#ff6600; color:#fff; text-decoration:none; border-radius:6px; font-weight:bold;">Zaregistrovat se</a>
       <a href="https://www.tipsport.cz/vegas" target="_blank">
         <button>Zaregistrovat se</button>
       </a>
