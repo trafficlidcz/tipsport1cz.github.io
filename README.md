@@ -50,10 +50,11 @@
       <button onclick="showResult()">Zobrazit výsledek</button>
     </div>
 
-    <div class="progress-bar"><div id="progress" class="progress"></div></div>
+    <div class="result" id="result">
+      <h2>🎉 Gratulujeme!</h2>
+      <p>Tvůj bonus <strong>+200%</strong> na začátek je připraven 🎁</p>
+      <div class="progress-bar"><div id="progress" class="progress"></div></div>
       <p><strong>Zbývá čas:</strong> Aktivuj během 15 minut</p>
-      <a href="https://www.tipsport.cz/vegas" target="_blank">
-        <button>Zaregistrovat se</button>
       <a href="https://www.tipsport.cz/vegas" target="_blank">
         <button>Zaregistrovat se</button>
       </a>
