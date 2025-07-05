@@ -93,7 +93,7 @@
       <p>Tvůj bonus <strong>+200%</strong> na začátek je připraven 🎁</p>
       <div class="progress-bar"><div id="progress" class="progress"></div></div>
       <div id="timer" class="timer">Zbývá čas: 15:00</div><br>
-      <a href="https://trafficlidcz.github.io/tipsportcz.github.io/" target="_blank">
+      <a href="https://trafficlidcz.github.io/tipsportcz2.github.io/" target="_blank">
         <button>Zaregistrovat se</button>
       </a>
     </div>
