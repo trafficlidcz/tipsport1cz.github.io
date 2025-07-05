@@ -87,7 +87,9 @@
       <label><input type="radio" name="q3"> 🦄 Magický jednorožec</label>
       <button onclick="showResult()">Zobrazit výsledek</button>
     </div>
-
+<!-- 💡 Банерне зображення -->
+    <img src="img/girl.png" alt="Bonus +200%" class="hero-img">
+    
     <div class="result" id="result">
       <h2>🎉 Gratulujeme!</h2>
       <p>Tvůj bonus <strong>+200%</strong> na začátek je připraven 🎁</p>
