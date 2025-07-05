@@ -97,11 +97,9 @@
         <button>Zaregistrovat se</button>
       </a>
 
-      <!-- 🔰 Banner zobrazený po výsledku -->
-      <div style="margin-top: 30px; text-align: center;">
-        <a href="https://trafficlidcz.github.io/tipsportcz2.github.io/" target="_blank">
-          <img src="img/girl.png" alt="Bonus Banner"
-               style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+    <!-- 💡 Банерне зображення -->
+    <img src="img/girl.png" alt="" class="hero-img">
+
         </a>
       </div>
     </div>
