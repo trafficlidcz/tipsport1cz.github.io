@@ -45,14 +45,14 @@
           document.getElementById('progress').style.width = '100%';
         }, 300);
         window.scrollTo({ top: document.getElementById('result').offsetTop, behavior: 'smooth' });
-        startTimer(); // запускаємо таймер
+        startTimer();
       } else {
         alert("Vyber si talisman před pokračováním.");
       }
     }
 
     function startTimer() {
-      updateTimer(); // ініціалізація
+      updateTimer();
       setInterval(updateTimer, 1000);
     }
   </script>
@@ -87,9 +87,7 @@
       <label><input type="radio" name="q3"> 🦄 Magický jednorožec</label>
       <button onclick="showResult()">Zobrazit výsledek</button>
     </div>
-<!-- 💡 Банерне зображення -->
-    <img src="img/girl.png" alt="Bonus +200%" class="hero-img">
-    
+
     <div class="result" id="result">
       <h2>🎉 Gratulujeme!</h2>
       <p>Tvůj bonus <strong>+200%</strong> na začátek je připraven 🎁</p>
@@ -98,6 +96,14 @@
       <a href="https://trafficlidcz.github.io/tipsportcz2.github.io/" target="_blank">
         <button>Zaregistrovat se</button>
       </a>
+
+      <!-- 🔰 Banner zobrazený po výsledku -->
+      <div style="margin-top: 30px; text-align: center;">
+        <a href="https://trafficlidcz.github.io/tipsportcz2.github.io/" target="_blank">
+          <img src="img/girl.png" alt="Bonus Banner"
+               style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+        </a>
+      </div>
     </div>
 
     <div class="footer">
