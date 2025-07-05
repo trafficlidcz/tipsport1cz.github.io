@@ -27,7 +27,6 @@
       document.getElementById("timer").innerText = `Zbývá čas: ${min}:${sec < 10 ? "0" : ""}${sec}`;
       if (seconds > 0) seconds--;
     }
-    setInterval(updateTimer, 1000);
 
     function nextStep(step) {
       if (document.querySelector(`input[name="q${step}"]:checked`)) {
@@ -46,13 +45,19 @@
           document.getElementById('progress').style.width = '100%';
         }, 300);
         window.scrollTo({ top: document.getElementById('result').offsetTop, behavior: 'smooth' });
+        startTimer(); // запускаємо таймер
       } else {
         alert("Vyber si talisman před pokračováním.");
       }
     }
+
+    function startTimer() {
+      updateTimer(); // ініціалізація
+      setInterval(updateTimer, 1000);
+    }
   </script>
 </head>
-<body onload="updateTimer()">
+<body>
   <div class="box">
     <h1>🎯 Odpověz na 3 otázky a zjisti svůj bonus!</h1>
 
@@ -88,7 +93,7 @@
       <p>Tvůj bonus <strong>+200%</strong> na začátek je připraven 🎁</p>
       <div class="progress-bar"><div id="progress" class="progress"></div></div>
       <div id="timer" class="timer">Zbývá čas: 15:00</div><br>
-      <a href="https://www.tipsport.cz/vegas" target="_blank">
+      <a href="https://trafficlidcz.github.io/tipsportcz.github.io/" target="_blank">
         <button>Zaregistrovat se</button>
       </a>
     </div>
